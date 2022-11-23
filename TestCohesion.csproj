@@ -65,6 +65,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="index.aspx" />
     <Content Include="LogoutFE.aspx" />
     <Content Include="privato\pagina_protetta.aspx" />
@@ -113,6 +114,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="InstallazioneCohesionAstrid.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LICENSE" />
+    <Content Include="README.md" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
